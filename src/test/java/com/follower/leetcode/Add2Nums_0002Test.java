@@ -42,5 +42,5 @@ public class Add2Nums_0002Test {
         Assert.assertNull(real);
 
     }
-    
+
 }
