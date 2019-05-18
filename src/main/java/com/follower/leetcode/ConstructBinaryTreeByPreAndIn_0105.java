@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by lin on 19-5-15.
  */
-public class ConstructBinaryTreeByPreAndIn {
+public class ConstructBinaryTreeByPreAndIn_0105 {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return constructHepler(0, preorder.length - 1, 0, preorder, inorder);

@@ -5,7 +5,7 @@ import com.follower.common.TreeNode;
 /**
  * Created by lin on 19-5-15.
  */
-public class ConstructBinaryTreeByInAndPost {
+public class ConstructBinaryTreeByInAndPost_0106 {
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         return constructHepler(inorder.length - 1, 0, 0, inorder, postorder);
