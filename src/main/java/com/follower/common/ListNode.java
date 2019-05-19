@@ -6,11 +6,11 @@ package com.follower.common;
  */
 public class ListNode {
 
-    private int x;
+    public int val;
 
-    private ListNode next;
+    public ListNode next;
 
     public ListNode(int x) {
-        this.x = x;
+        this.val = x;
     }
 }
