@@ -6,7 +6,7 @@ import com.follower.common.TreeNode;
  * Created by lin on 19-5-19.
  */
 public class ConvertSortedArray2BST_0108 {
-    
+
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0) {
             return null;
