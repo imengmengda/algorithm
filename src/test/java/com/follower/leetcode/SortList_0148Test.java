@@ -19,7 +19,7 @@ public class SortList_0148Test {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(0);
-        head = solution.sortList(head);
+        //head = solution.sortList(head);
         while (head != null) {
             System.out.println(head.val);
             head = head.next;
