@@ -14,12 +14,12 @@ public class SortList_0148Test {
 
     @Test
     public void sortList() throws Exception {
-        ListNode head = new ListNode(-1);
-        head.next = new ListNode(5);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(0);
-        //head = solution.sortList(head);
+        ListNode head = new ListNode(4);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(1);
+        //head.next.next.next = new ListNode(3);
+        //head.next.next.next.next = new ListNode(0);
+        head = solution.sortList(head);
         while (head != null) {
             System.out.println(head.val);
             head = head.next;
