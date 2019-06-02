@@ -4,14 +4,12 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by lin on 19-6-2.
  */
-public class Add2NagebinaryNumbers_0173Test {
+public class Add2NagebinaryNumbers_1173Test {
 
-    Add2NagebinaryNumbers_0173 solution = new Add2NagebinaryNumbers_0173();
+    Add2NagebinaryNumbers_1173 solution = new Add2NagebinaryNumbers_1173();
 
     @Test
     public void addNegabinary() throws Exception {

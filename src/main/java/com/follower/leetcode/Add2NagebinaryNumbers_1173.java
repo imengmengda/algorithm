@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * Created by lin on 19-6-2.
  */
-public class Add2NagebinaryNumbers_0173 {
+public class Add2NagebinaryNumbers_1173 {
 
     public int[] addNegabinary(int[] arr1, int[] arr2) {
        Stack<Integer> stack = new Stack<>();
